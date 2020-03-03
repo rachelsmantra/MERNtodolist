@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",
-  "homepage": "http://gitname.github.io/todolist",
+  "homepage": "https://rachelsmantrawelcomeapp.herokuapp.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
