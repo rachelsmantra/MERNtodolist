@@ -1,0 +1,55 @@
+body {
+  font-family: "Lato";
+  background: rgb(244, 244, 244);
+  background: #eee;
+}
+
+.main-container {
+  margin-top: 50px;
+  margin: 20px 30px;
+}
+
+.header h1 {
+  margin-top: 30px;
+  font-family: "Merriweather";
+}
+
+.todo-header {
+  color: #fff;
+  width: 100%;
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+}
+
+.todo-list-container {
+  width: 400px;
+}
+
+.todo-list-main-container {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.todo-item-links a {
+  color: #000;
+}
+
+.nav-item p {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.weather-container {
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.card-img-top {
+  margin-top: 10px;
+}
+
+.App.bg-light {
+  margin-bottom: 10px;
+}

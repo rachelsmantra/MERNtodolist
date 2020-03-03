@@ -1,0 +1,14 @@
+p {
+  color: #434e52;
+  font-size: 13px;
+  margin-top: 9px;
+}
+
+.todo-question {
+  margin: 0;
+}
+
+.todo-items {
+  margin: 10px 0px;
+  padding: 10px;
+}

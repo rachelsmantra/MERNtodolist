@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/todolist/static/css/main.31c16226.chunk.css",
+    "main.js": "/todolist/static/js/main.1a9349ec.chunk.js",
+    "main.js.map": "/todolist/static/js/main.1a9349ec.chunk.js.map",
+    "runtime-main.js": "/todolist/static/js/runtime-main.6fa7f924.js",
+    "runtime-main.js.map": "/todolist/static/js/runtime-main.6fa7f924.js.map",
+    "static/js/2.5aad85dc.chunk.js": "/todolist/static/js/2.5aad85dc.chunk.js",
+    "static/js/2.5aad85dc.chunk.js.map": "/todolist/static/js/2.5aad85dc.chunk.js.map",
+    "index.html": "/todolist/index.html",
+    "precache-manifest.bb8596510ed4f2c1a95ddf6bb4226191.js": "/todolist/precache-manifest.bb8596510ed4f2c1a95ddf6bb4226191.js",
+    "service-worker.js": "/todolist/service-worker.js",
+    "static/css/main.31c16226.chunk.css.map": "/todolist/static/css/main.31c16226.chunk.css.map",
+    "static/js/2.5aad85dc.chunk.js.LICENSE.txt": "/todolist/static/js/2.5aad85dc.chunk.js.LICENSE.txt",
+    "static/media/weather.jpg": "/todolist/static/media/weather.01b4cd18.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6fa7f924.js",
+    "static/js/2.5aad85dc.chunk.js",
+    "static/css/main.31c16226.chunk.css",
+    "static/js/main.1a9349ec.chunk.js"
+  ]
+}
