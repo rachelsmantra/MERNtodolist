@@ -22,10 +22,12 @@ mongoose.connection.on("error", function(error) {
 });
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static("clienttodolist/build"));
+  app.use(express.static("todolistclient/build"));
 
   app.get("*", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "build", "index.html"));
+    res.sendFile(
+      path.resolve(__dirname, "todolistclient", "build", "index.html")
+    );
   });
 }
 
