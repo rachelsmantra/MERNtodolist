@@ -67,6 +67,7 @@ function Navigation() {
 function Main() {
   return (
     <Switch>
+      <Route exact path="/" component={ArticleList} />
       <Route exact path="/articles" component={ArticleList} />
       <Route exact path="/articles/new" component={ArticleAdd} />
       <Route exact path="/articles/:_id" component={ArticleInfo} />
