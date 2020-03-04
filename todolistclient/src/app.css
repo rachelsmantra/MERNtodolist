@@ -9,9 +9,17 @@ body {
   margin: 20px 30px;
 }
 
+.header {
+  margin: 20px 20px;
+}
+
 .header h1 {
   margin-top: 30px;
   font-family: "Merriweather";
+}
+
+.welcome-header {
+  font-size: 60px;
 }
 
 .todo-header {

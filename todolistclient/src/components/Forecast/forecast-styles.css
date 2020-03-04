@@ -1,5 +1,5 @@
 .card-img-top {
-  width: 350px;
+  width: 310px;
 }
 
 .card-title {
@@ -10,4 +10,29 @@
 .weather-btn {
   padding: 3px 7px;
   margin-top: 10px;
+}
+
+.weather-container {
+  width: 420px;
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .weather-container {
+    width: 420px;
+  }
+
+  .card-img-top {
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .weather-container {
+    width: 335px;
+  }
+
+  .card-img-top {
+    width: 290px;
+  }
 }

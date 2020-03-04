@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App ">
       <div className="header d-flex flex-row justify-content-center">
-        <h1 className="display-1">Welcome</h1>
+        <h1 className="welcome-header">Welcome</h1>
       </div>
 
       <div className="d-flex flex-row flex-wrap justify-content-center main-container">

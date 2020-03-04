@@ -30,10 +30,7 @@ const Forecast = () => {
   }
 
   return (
-    <div
-      className="weather-container card bg-light d-flex flex-column align-items-center col-12"
-      style={{ width: 400 }}
-    >
+    <div className="weather-container card bg-light d-flex flex-column align-items-center col-12">
       <img className="card-img-top" src={weather} alt="Card image cap"></img>
       <div
         id="weather-headline"
