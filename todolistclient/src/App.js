@@ -22,10 +22,12 @@ function App() {
 
       <div className="d-flex flex-row flex-wrap justify-content-center main-container">
         <div className="todo-list-container">
+          <div className="card bg-dark todo-header">
+            <h2>Todo List</h2>
+          </div>
           <div className="App bg-light card">
             <Router>
               <div className="container todo-list-main-container">
-                <Navigation />
                 <div className="main-container">
                   <Main />
                 </div>
@@ -38,29 +40,6 @@ function App() {
         </div>
       </div>
     </div>
-  );
-}
-
-function Navigation() {
-  return (
-    <nav className="card bg-dark mb-4">
-      <div className="container">
-        <ul className="navbar-nav mr-auto">
-          <li className="nav-item">
-            <NavLink
-              exact
-              className="nav-link"
-              activeClassName="active"
-              to="/articles"
-            >
-              <div className="bg-dark todo-header">
-                <h2>Todo List</h2>
-              </div>
-            </NavLink>
-          </li>
-        </ul>
-      </div>
-    </nav>
   );
 }
 
